@@ -157,7 +157,6 @@
         };
 
         layer_5 {
-            status = "reserved";
             display-name = "layer5";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
@@ -169,7 +168,6 @@
         };
 
         layer_6 {
-            status = "reserved";
             display-name = "layer6";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
@@ -181,7 +179,6 @@
         };
 
         layer_7 {
-            status = "reserved";
             display-name = "layer7";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                             &trans       &trans  &trans  &trans  &trans
