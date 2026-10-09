@@ -35,8 +35,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:pan-up$$
-  - {t: '$$mdi:keyboard-space$$', h: layer2}
   - {t: '$$mdi:keyboard-space$$', h: layer1}
+  - {t: '$$mdi:keyboard-space$$', h: layer2}
   - {t: '$$mdi:backspace$$', h: layer3}
   - {t: '$$mdi:keyboard-return$$', h: layer5}
   - $$mdi:pan-up$$
@@ -84,8 +84,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -133,8 +133,8 @@ layers:
   - .
   - '0'
   - $$mdi:arrow-up-bold$$
-  - {type: held}
-  - Ctl+Sft+END
+  - ''
+  - {t: Ctl+Sft+END, type: held}
   - {t: '$$mdi:backspace$$', type: backspace}
   - KP 0
   - $$mdi:arrow-up-bold$$
