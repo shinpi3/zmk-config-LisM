@@ -51,16 +51,16 @@ layers:
   - $$mdi:pan-right$$
   layer1:
   - $$mdi:keyboard-esc$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:keyboard-space$$
-  - $$mdi:page-previous-outline$$
-  - $$mdi:page-next-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - {t: ▽, type: trans}
-  - '&mkp MB5'
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -69,17 +69,17 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-up$$
-  - $$mdi:pan-down$$
-  - '&mkp MB4'
+  - F11
+  - Sft+$$mdi:apple-keyboard-caps$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+F4
   - {t: ▽, type: trans}
   - $$mdi:format-vertical-align-bottom$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: ▽, type: trans}
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -102,45 +102,45 @@ layers:
   - {t: ▽, type: trans}
   - '7'
   - '8'
-  - '9'
-  - '='
-  - F1
-  - F2
-  - F7
-  - F10
-  - $$mdi:apple-keyboard-shift$$
-  - '*'
-  - {t: '4', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '5', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '6', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '-', h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
+  - Ctl+D
+  - ''''
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP PLUS
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '4', h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:apple-keyboard-command$$
+  - KP ASTERISK
+  - KP 4
+  - KP 5
+  - KP 6
+  - '-'
   - /
   - '1'
   - '2'
   - '3'
   - +
-  - $$mdi:mouse-right-click-outline$$
-  - ''
-  - $$mdi:arrow-down-bold$$
-  - ''
-  - $$mdi:apple-keyboard-option$$
+  - KP SLASH
+  - KP 1
+  - KP 2
+  - KP 3
+  - ','
   - {t: ▽, type: trans}
   - .
   - '0'
   - $$mdi:arrow-up-bold$$
-  - {t: LANG2, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LANG1
+  - {type: held}
+  - Ctl+Sft+END
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - KP 0
   - $$mdi:arrow-up-bold$$
-  - $$mdi:skip-previous-outline$$
-  - $$mdi:skip-next-outline$$
-  - F12
+  - Sft+Ctl+.
+  - Ctl+.
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
