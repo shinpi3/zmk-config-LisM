@@ -113,22 +113,22 @@
         layer_1 {
             display-name = "layer1";
             bindings = <
-&kp ESCAPE  &trans  &trans  &trans  &trans                    &kp SPACE     &kp RG(LEFT)  &kp RG(RIGHT)  &mkp MB3      &trans
-&mkp MB5    &trans  &trans  &trans  &trans                    &kp LG(UP)    &mkp MB1      &mkp MB2       &msc SCRL_UP  &msc SCRL_DOWN
-&mkp MB4    &trans  &trans  &trans  &trans                    &kp LG(DOWN)  &kp LEFT      &kp UP         &kp RIGHT     &trans
-&trans      &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &kp DOWN       &trans        &kp LG(W)
-                    &trans  &trans  &trans                    &trans        &trans        &trans
+&kp ESCAPE    &kp F2  &kp F3  &kp F4      &kp F5                    &kp F6        &kp F7    &kp F8    &kp F9        &kp F10
+&kp F1        &trans  &trans  &trans      &trans                    &kp LG(UP)    &mkp MB1  &mkp MB2  &msc SCRL_UP  &kp F11
+&kp LS(CAPS)  &trans  &trans  &kp LA(F4)  &trans                    &kp LG(DOWN)  &kp LEFT  &kp UP    &kp RIGHT     &kp F12
+&trans        &trans  &trans  &trans      &trans  &trans    &trans  &trans        &trans    &kp DOWN  &trans        &kp LG(W)
+                      &trans  &trans      &trans                    &trans        &trans    &trans
             >;
         };
 
         layer_2 {
             display-name = "layer2";
             bindings = <
-&trans        &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &kp EQUAL                          &kp F1     &kp F2    &kp F7           &kp F10      &kp RSHIFT
-&kp ASTERISK  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &mt LCTRL MINUS                    &mkp MB1   &kp LEFT  &kp UP           &kp RIGHT    &kp RGUI
-&kp SLASH     &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                           &mkp MB2   &none     &kp DOWN         &none        &kp RALT
-&trans        &kp DOT            &kp NUMBER_0         &kp UP             &kp LANG2        &trans    &trans  &kp LANG1  &kp UP    &kp RS(RC(TAB))  &kp RC(TAB)  &kp F12
-                                 &kp LEFT             &kp DOWN           &kp RIGHT                          &kp LEFT   &kp DOWN  &kp RIGHT
+&trans      &kp NUMBER_7       &kp NUMBER_8    &kp UP_ARROW    &kp LC(D)                                          &kp SINGLE_QUOTE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
+&kp DELETE  &mt LALT NUMBER_4  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW                                    &kp KP_ASTERISK   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
+&kp SLASH   &kp NUMBER_1       &kp NUMBER_2    &kp NUMBER_3    &kp PLUS                                           &kp KP_SLASH      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COMMA
+&trans      &kp DOT            &kp NUMBER_0    &kp UP          &none            &kp LC(LS(END))    &kp BACKSPACE  &kp KP_NUMBER_0   &kp UP           &kp RS(RC(DOT))  &kp RC(DOT)      &kp ENTER
+                               &kp LEFT        &kp DOWN        &kp RIGHT                                          &kp LEFT          &kp DOWN         &kp RIGHT
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
