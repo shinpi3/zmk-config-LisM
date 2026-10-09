@@ -12,15 +12,15 @@ layers:
   - O
   - P
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: G, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: J, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: Mark Layer}
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - '-'
   - Z
   - X
   - C
@@ -31,26 +31,26 @@ layers:
   - ','
   - .
   - /
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Device Layer}
-  - {t: Mouse Layer, h: toggle}
-  - {t: '$$mdi:keyboard-tab$$', h: Mouse Layer}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:pan-up$$
-  - {t: '$$mdi:keyboard-space$$', h: Number Layer}
-  - {t: '$$mdi:keyboard-esc$$', h: Mark Layer}
-  - {t: '$$mdi:backspace$$', h: Mark Layer}
-  - {t: '$$mdi:keyboard-return$$', h: Number Layer}
+  - {t: '$$mdi:keyboard-space$$', h: layer2}
+  - {t: '$$mdi:keyboard-space$$', h: layer1}
+  - {t: '$$mdi:backspace$$', h: layer3}
+  - {t: '$$mdi:keyboard-return$$', h: layer5}
   - $$mdi:pan-up$$
-  - F7
-  - F10
-  - {t: F12, h: Device Layer}
+  - layer6
+  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:backspace-reverse-outline$$', h: layer4}
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
-  Mouse Layer:
-  - {t: ▽, type: trans}
+  layer1:
+  - $$mdi:keyboard-esc$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -82,10 +82,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -98,7 +98,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Number Layer:
+  layer2:
   - {t: ▽, type: trans}
   - '7'
   - '8'
@@ -147,7 +147,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  Mark Layer:
+  layer3:
   - Sft+Gui+4
   - F4
   - (
@@ -167,7 +167,7 @@ layers:
   - _
   - ''''
   - '"'
-  - {t: \, type: held}
+  - \
   - KP NUMLOCK
   - F11
   - '{'
@@ -184,7 +184,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:keyboard-space$$
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: ▽, type: trans}
   - ''
@@ -196,7 +196,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Device Layer:
+  layer4:
   - ''
   - ''
   - ''
@@ -227,7 +227,7 @@ layers:
   - ''
   - ''
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:progress-download$$', type: held}
+  - $$mdi:progress-download$$
   - BT CLR ALL
   - ''
   - ''
@@ -238,10 +238,176 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:progress-download$$', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  layer5:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  layer6:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  layer7:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Ctl+$$mdi:keyboard-tab$$
+  - Ctl+$$mdi:keyboard-tab$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [16, 17]
+  k: $$mdi:mouse-left-click-outline$$
+- p: [16, 18]
+  k: $$mdi:mouse-right-click-outline$$
+- p: [16, 7]
+  k: $$mdi:mouse-scroll-wheel$$
+- p: [26, 27]
+  k: Ctl+W
+- p: [16, 17, 18, 19]
+  k: '&mkp MB4'
+- p: [16, 17, 18]
+  k: layer7
+- p: [11, 12, 13]
+  k: layer7
+- p: [0, 1]
+  k: '`'
+- p: [10, 11]
+  k: $$mdi:keyboard-tab$$
