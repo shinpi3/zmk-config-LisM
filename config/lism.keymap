@@ -62,6 +62,21 @@
             bindings = <&mkp MB3>;
             key-positions = <16 7>;
         };
+
+        close {
+            bindings = <&kp LC(W)>;
+            key-positions = <26 27>;
+        };
+
+        mb4 {
+            bindings = <&mkp MB4>;
+            key-positions = <16 17 18 19>;
+        };
+
+        mo7 {
+            bindings = <&mo 7>;
+            key-positions = <16 17 18>;
+        };
     };
 
     keymap {
