@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - '-'
-  - Z
+  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
   - V
@@ -32,7 +32,7 @@ layers:
   - .
   - /
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:pan-up$$
   - {t: '$$mdi:keyboard-space$$', h: layer1}
@@ -40,9 +40,9 @@ layers:
   - {t: '$$mdi:backspace$$', h: layer3}
   - {t: '$$mdi:keyboard-return$$', h: layer5}
   - $$mdi:pan-up$$
-  - layer6
-  - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: layer4}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: layer6}
+  - HOME
+  - {t: END, h: layer4}
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Ctl+END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:arrow-down-bold$$
